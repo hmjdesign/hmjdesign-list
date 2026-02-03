@@ -93,7 +93,7 @@ body * {
 }
 
 .light #switch button {
-  animation: slide-in 0.2s forwards;
+  animation: slide-in 0.4s forwards;
 }
 
 #switch button:hover {
@@ -181,11 +181,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(./assets/bg-desktop.png);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-desktop-light.png);
   }
 }
 
